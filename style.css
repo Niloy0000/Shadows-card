@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600&family=Nunito:wght@400;900;1000&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  background-color: #eaeaea;
+  color: #444;
+}
+.card-container {
+  margin: 100px auto;
+  background-color: whitesmoke;
+  max-width: 500px;
+  height: 700px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #ffffff, -5px -5px 10px #cacdcd;
+  padding: 25px;
+}
+.card-image {
+  width: 200px;
+  height: 200px;
+  background-color: crimson;
+  overflow: hidden;
+  margin: 15px auto 0;
+  border-radius: 50%;
+}
+.card-image img {
+  cursor: pointer;
+}
+.card-container img:hover {
+  filter: grayscale(1);
+}
+
+.card-details {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card-details h2 {
+  font-size: 2.3rem;
+  letter-spacing: 1px;
+}
+.card-details p {
+  font-size: 1rem;
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.card-details .designation {
+  text-align: center;
+  color: lightseagreen;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 600;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.card-details a {
+  text-decoration: none;
+  background-color: lightseagreen;
+  color: white;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 28px;
+  display: inline;
+  margin-top: 25px;
+  letter-spacing: 5px;
+  border-radius: 10px;
+}
+.card-details a:hover {
+  background-color: #444;
+}
+
+.card-details a:active {
+  outline: 5px solid rgba(32, 178, 171, 0.5);
+}
